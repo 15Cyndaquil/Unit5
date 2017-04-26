@@ -51,7 +51,7 @@ public class AnimationFX {
     }
     private static void setAnimation(){
         test.setOnFinished(event -> {
-            if(current==max){
+            if(current>=max){
                 current=0;
             }
             current++;
